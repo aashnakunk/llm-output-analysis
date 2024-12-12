@@ -27,9 +27,3 @@ Both datasets are stored in a publicly accessible AWS S3 bucket.
 - **Google Colab**: Recommended for running the notebook.
 - **Python**: Required only if running the notebook locally.
 - **No AWS Configuration Required**: Datasets are publicly accessible.
-
-### Steps to Run
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name

@@ -1,29 +1,29 @@
 # Sentiment and Hate Speech Detection Using Big Data Tools
 
 ## Overview
-This project analyzes text outputs from Large Language Models (LLMs) to classify sentiment (positive, neutral, negative) and detect hate speech or offensive language. Leveraging **Apache Spark ML** and **AWS S3**, the pipeline demonstrates scalable and efficient processing of large-scale datasets. The goal is to provide insights into the ethical and safe deployment of AI-generated content.
-
-## Technologies Used
-- **Google Colab**: For running the Jupyter Notebook and visualizing results.
-- **AWS S3**: Publicly accessible storage for datasets used in training and testing.
-- **Apache Spark ML**: Distributed machine learning for processing and inference.
-- **Python**: Core language for data preprocessing, model training, and evaluation.
-
-## Data Sources
-The datasets used in this project are publicly available:
-1. **Sentiment Analysis Dataset**: Used for training the sentiment classification model.
-2. **Hate Speech and Offensive Language Dataset**: Used for training the hate speech detection model.
-
-Both datasets are stored in a publicly accessible AWS S3 bucket.
+This project leverages **Apache Spark ML** and **AWS S3** to classify sentiment (positive, neutral, negative) and detect hate speech or offensive language. It demonstrates scalable and efficient processing of large datasets while offering insights into the ethical deployment of AI-generated content.
 
 ## Features
 - **Sentiment Classification**: Detects positive, neutral, and negative sentiment.
 - **Hate Speech Detection**: Identifies abusive or offensive content.
-- **Scalable Pipeline**: Utilizes Big Data tools for efficient processing.
+- **Scalable Pipeline**: Uses Big Data tools for distributed processing and inference.
 
-## Setup and Running the Project
+## Technologies Used
+- **Google Colab/JupyterHub**: Interactive environment for running and visualizing the pipeline.
+- **AWS S3**: Publicly accessible storage for training and testing datasets.
+- **Apache Spark ML**: Distributed machine learning for processing large-scale data.
+- **Python**: Core language for data preprocessing, model training, and evaluation.
 
-### Prerequisites
-- **Google Colab**: Recommended for running the notebook.
-- **Python**: Required only if running the notebook locally.
-- **No AWS Configuration Required**: Datasets are publicly accessible.
+## Datasets
+The datasets used in this project are publicly accessible via AWS S3:
+1. **Sentiment Analysis Dataset**: For training the sentiment classification model.
+2. **Hate Speech and Offensive Language Dataset**: For training the hate speech detection model.
+
+No manual dataset uploads are needed. These datasets are pre-configured in the project.
+
+## How to Run
+1. Clone this repository or download the code files.
+2. Open the provided notebook in **Google Colab**, **JupyterHub**, or any interactive notebook environment.
+3. No additional setup is required. The datasets are publicly available via AWS S3, and credentials are pre-configured in the code.
+4. Simply run the notebook cells to execute the pipeline and view results.
+
